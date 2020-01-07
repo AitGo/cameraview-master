@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/bottom_container"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:background="#73000000">
+
+    <com.google.android.cameraview.demo.camera.ui.IndicatorView
+        android:visibility="invisible"
+        android:id="@+id/indicator_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textSize="@dimen/indicatorTextSize"
+        app:textColor="@color/indicator_normal_color"
+        app:activeColor="@color/indicator_active_color"
+        app:paddingHor="@dimen/indicatorPaddingHor"
+        app:paddingVer="@dimen/indicatorPaddingVer"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <com.google.android.cameraview.demo.camera.ui.CircleImageView
+            android:visibility="invisible"
+            android:id="@+id/thumbnail"
+            android:layout_width="@dimen/thumbnail_size"
+            android:layout_height="@dimen/thumbnail_size"
+            app:border_width="@dimen/thumbnail_border_width"
+            android:layout_marginEnd="@dimen/bottom_control_margin" />
+
+        <com.google.android.cameraview.demo.camera.ui.ShutterButton
+            android:id="@+id/btn_shutter"
+            android:layout_width="@dimen/shutter_button_size"
+            android:layout_height="@dimen/shutter_button_size" />
+
+        <ImageButton
+            android:visibility="invisible"
+            android:id="@+id/btn_setting"
+            android:layout_width="@dimen/setting_icon_size"
+            android:layout_height="@dimen/setting_icon_size"
+            android:layout_marginStart="@dimen/bottom_control_margin"
+            android:contentDescription="@string/app_name"
+            android:scaleType="center" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+{
+    "code": 5,
+    "msg": "",
+    "data": [
+        {
+            "manufacturer": "HUAWEI",
+            "model": "HUAWEI NXT-TL00",
+            "width": "7.63",
+            "height": "10.18",
+            "remark": "mate8移动定制版"
+        },
+        {
+            "manufacturer": "HUAWEI",
+            "model": "HUAWEI NXT-DL00",
+            "width": "7.63",
+            "height": "10.18",
+            "remark": "mate8联通定制版"
+        },
+        {
+            "manufacturer": "HUAWEI",
+            "model": "HUAWEI NXT-CL00",
+            "width": "7.63",
+            "height": "10.18",
+            "remark": "mate8电信定制版"
+        },
+        {
+            "manufacturer": "HUAWEI",
+            "model": "ALP-TL00",
+            "width": "7.62",
+            "height": "10.16",
+            "remark": "mate10移动定制版"
+        },
+        {
+            "manufacturer": "HUAWEI",
+            "model": "ALP-AL00",
+            "width": "7.62",
+            "height": "10.16",
+            "remark": "mate10全网通版"
+        },
+        {
+            "manufacturer": "HUAWEI",
+            "model": "HMA-TL00",
+            "width": "7.92",
+            "height": "10.55",
+            "remark": "mate20移动定制版"
+        },
+        {
+            "manufacturer": "HUAWEI",
+            "model": "HMA-AL00",
+            "width": "7.92",
+            "height": "10.55",
+            "remark": "mate20全网通版"
+        }
+
+    ]
+}
